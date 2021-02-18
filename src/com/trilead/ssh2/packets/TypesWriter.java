@@ -135,8 +135,8 @@ public class TypesWriter
 
 		try
 		{
-			/* All Java JVMs must support ISO-8859-1 */
-			b = v.getBytes("ISO-8859-1");
+			/* utf8 support for testinium*/
+			b = v.getBytes("UTF-8");
 		}
 		catch (UnsupportedEncodingException ignore)
 		{
